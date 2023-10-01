@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djsh3wvp1y0fv"
-path="res://.godot/imported/sprite_arkanoid.png-3117a62721070d1caad5f408f53d9597.ctex"
+uid="uid://cc4kcdg0g8mju"
+path="res://.godot/imported/futurecity_04.png-cbf6f9c938ee1ec35713f9346e7e87c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/imgs/sprite_arkanoid.png"
-dest_files=["res://.godot/imported/sprite_arkanoid.png-3117a62721070d1caad5f408f53d9597.ctex"]
+source_file="res://assets/imgs/backgrounds/future cities/futurecity_04.png"
+dest_files=["res://.godot/imported/futurecity_04.png-cbf6f9c938ee1ec35713f9346e7e87c7.ctex"]
 
 [params]
 
-compress/mode=3
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
@@ -31,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

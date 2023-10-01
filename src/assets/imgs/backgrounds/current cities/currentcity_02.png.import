@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baxijj1n404g7"
-path="res://.godot/imported/sprite_arkanoid - copia.png-f61cff25ba12495996d8d06f32d6e46b.ctex"
+uid="uid://4741j325sm8v"
+path="res://.godot/imported/currentcity_02.png-b5b58f87cf098fcd223d780c530a9ac2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/imgs/sprite_arkanoid - copia.png"
-dest_files=["res://.godot/imported/sprite_arkanoid - copia.png-f61cff25ba12495996d8d06f32d6e46b.ctex"]
+source_file="res://assets/imgs/backgrounds/current cities/currentcity_02.png"
+dest_files=["res://.godot/imported/currentcity_02.png-b5b58f87cf098fcd223d780c530a9ac2.ctex"]
 
 [params]
 
@@ -31,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1
