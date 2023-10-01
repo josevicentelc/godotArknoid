@@ -1,13 +1,13 @@
-[gd_scene load_steps=7 format=3 uid="uid://cn577hjitidr2"]
+[gd_scene load_steps=5 format=3 uid="uid://cn577hjitidr2"]
 
 [ext_resource type="PackedScene" uid="uid://dpongsx86opq7" path="res://scenes/world_limits.tscn" id="1_7cih8"]
+[ext_resource type="PackedScene" uid="uid://d4d1ig6evg5dp" path="res://gameManager.tscn" id="1_8e8pb"]
 [ext_resource type="Texture2D" uid="uid://bx35r7r8ehmn5" path="res://assets/imgs/backgrounds/magic grounds/magicgrounds_01.png" id="1_ifc7d"]
-[ext_resource type="PackedScene" uid="uid://dp0irrkthbljb" path="res://scenes/tiles.tscn" id="1_yrnj5"]
 [ext_resource type="PackedScene" uid="uid://d22moj78c6fdd" path="res://scenes/player.tscn" id="2_6qagv"]
-[ext_resource type="Texture2D" uid="uid://5rs4gp3kmg35" path="res://assets/imgs/backgrounds/medieval castles/castles_01.png" id="2_jn4rn"]
-[ext_resource type="PackedScene" uid="uid://d38et4j5fybr2" path="res://scenes/ball.tscn" id="6_3ew0y"]
 
 [node name="world" type="Node2D"]
+
+[node name="gameManager" parent="." instance=ExtResource("1_8e8pb")]
 
 [node name="world_limits" parent="." instance=ExtResource("1_7cih8")]
 visible = false
@@ -17,37 +17,4 @@ position = Vector2(961.5, 541.5)
 scale = Vector2(1.25065, 1.06543)
 texture = ExtResource("1_ifc7d")
 
-[node name="Castles01" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(957, 539)
-scale = Vector2(1.2526, 1.07031)
-texture = ExtResource("2_jn4rn")
-
-[node name="tiles" parent="." instance=ExtResource("1_yrnj5")]
-position = Vector2(615, 331)
-
 [node name="Player" parent="." instance=ExtResource("2_6qagv")]
-
-[node name="Node2D" parent="." instance=ExtResource("6_3ew0y")]
-position = Vector2(632, 260)
-
-[node name="tiles2" parent="." instance=ExtResource("1_yrnj5")]
-position = Vector2(726, 331)
-
-[node name="tiles3" parent="." instance=ExtResource("1_yrnj5")]
-position = Vector2(631, 404)
-
-[node name="tiles4" parent="." instance=ExtResource("1_yrnj5")]
-position = Vector2(748, 411)
-
-[node name="tiles5" parent="." instance=ExtResource("1_yrnj5")]
-position = Vector2(464, 397)
-
-[node name="tiles6" parent="." instance=ExtResource("1_yrnj5")]
-position = Vector2(603, 476)
-
-[node name="Node2D2" parent="." instance=ExtResource("6_3ew0y")]
-position = Vector2(469, 85)
-
-[node name="Node2D3" parent="." instance=ExtResource("6_3ew0y")]
-position = Vector2(756, 60)
