@@ -1,10 +1,22 @@
-[gd_scene load_steps=2 format=3 uid="uid://d22moj78c6fdd"]
+[gd_scene load_steps=3 format=3 uid="uid://d22moj78c6fdd"]
 
 [ext_resource type="Texture2D" uid="uid://drc75r1dldmd1" path="res://assets/imgs/player.png" id="1_5j0ia"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vqv3g"]
+size = Vector2(155, 14)
+
 [node name="Node2D" type="Node2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 position = Vector2(58, 35)
 texture = ExtResource("1_5j0ia")
 vframes = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CharacterBody2D"]
+root_node = NodePath("../..")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(57.5, 35)
+shape = SubResource("RectangleShape2D_vqv3g")
